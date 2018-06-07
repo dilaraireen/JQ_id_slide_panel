@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="fonts/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>JS-2</title>
+       
+    </head>
+
+    <body>
+      <!--id selectors-->
+      <div id="flip">Click to slide the panel up or down</div> 
+      <div id="panel">Hello world!</div>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script>
+
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+          });
+         
+
+
+        });
+</script> 
+    </body>
+</html>
+
